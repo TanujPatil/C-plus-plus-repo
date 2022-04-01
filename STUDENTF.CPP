@@ -20,13 +20,13 @@ class student
 
 	void getstudent()
 	{
-		cout<<"\tRoll no:"<<rollno;
-		cout<<"\tName:"<<name;
-		cout<<"\tFees:"<<fees;
+		cout<<"\nRoll no:"<<rollno;
+		cout<<"\nName:"<<name;
+		cout<<"\nFees:"<<fees;
 	}
 	static void gettotal()
 	{
-		cout<<"Total:"<<total;
+		cout<<"\nTotal:"<<total;
 	}
 };
 	float student::total=0;
